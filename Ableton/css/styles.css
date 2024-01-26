@@ -1,7 +1,15 @@
+
+/* temporal */
+img { 
+    width: 100px;
+}
+/* _________________________ */
+
 body {
     margin: 0;
     padding: 0;
     font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-size: ; */
     /* overflow: hidden; */
 }
 
@@ -66,6 +74,25 @@ nav .left, nav .right{
     color: #ff764d;
 }
 
+/* dando estilos al main */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+section.major-image_container, .major-image {
+    width: 100%;
+}
 
+article {
+    width: 60%;
+    margin: 100px auto;
+    line-height: 30px;
+    font-size: 18px;
+}
+h2.title {
+    font-weight: 700;
+    line-height: 35px;
+    font-size: 24px;
+}
 
-
+/* estilos y posicionamiento de las imágenes y tarjetas */
