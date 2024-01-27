@@ -71,6 +71,8 @@ nav .left, nav .right{
 main {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.1);
 }
 
 article {
