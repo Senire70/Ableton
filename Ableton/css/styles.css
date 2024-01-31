@@ -94,14 +94,18 @@ h2.title {
 /* estilos y posicionamiento de las imágenes y tarjetas */
 .major-image_container {
     position: relative;
+    display: grid;
 }
 
 /* este elemento será agregado con javascript */
 h1 {
     position: absolute;
-    transform: translate(84%, -334%);
-    color: rgb(235, 75, 47);
+    place-self: center;
     font-size: 108px;
+    color: #FD5948;
+    /* color: rgb(235, 75, 47); */
+    /* transform: translate(84%, -334%);  
+    descartado por muy tedioso y poco eficiente*/
 }
 
 /* _____________________________ */
@@ -231,7 +235,7 @@ div.footer {
     /* padding: 0 105px; */
 }
 
-.footer>img {
+.footer > img {
     width: 190px;
     margin-bottom: 60px;
 }
@@ -354,7 +358,8 @@ button#btn {
 }
 
 .video {
-    width: 100%;
+    width: 666px;
+    height: 375px;
     display: grid;
     place-items: center;
     /* position: relative; */
@@ -386,4 +391,5 @@ p.video-description {
     font-size: 14px;
     font-weight: 500;
     margin-left: 10px;
+    margin-top: 30px;
 }
